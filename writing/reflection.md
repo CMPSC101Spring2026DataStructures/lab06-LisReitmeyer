@@ -1,6 +1,6 @@
 # CS101 Spring 2026 — Practice Midterm Reflection
 
-Name: Add Your Name Here  
+Name: Lis Reitmeyer
 Date: Add Date Here
 
 After completing the practice test, please reflect on your experience by
@@ -17,7 +17,7 @@ Which topics felt most comfortable, and which ones felt most difficult?
 
 **Your Answer:**
 
-TODO
+I think I was very confident through the whole thing. There were a couple questions I was pretty sure of, but not 100% sure, so I double checked some of the questions in JupyterLite, and I did end up getting the majority of those correct. 
 
 ---
 
@@ -28,7 +28,21 @@ Explain the concept being tested and describe why the correct answer is right.
 
 **Your Answer:**
 
-TODO
+Question 11 was tricky for me
+
+"""
+### 11. Which of the following is a valid Python **integer** literal?
+
+a) 3.14  
+b) "42"  
+c) True  
+d) 0xFF
+"""
+
+"A" has a decimal point, so it is likely a float
+"B" is a string because of the quotes
+"C" is a boolean
+I was unsure of "D", I'm still a little unsure of what it really means, but through process of elimination I think it must be correct. I also looked it up and apparently 0xFF is equal to 255, which would be an integer, but I am unsure how.
 
 ---
 
@@ -39,7 +53,10 @@ with a positive step versus a negative step. Give one original example of each.
 
 **Your Answer:**
 
-TODO
+Positive steps make the first number count up to the second one, negative steps makes the first number count down to the second one.
+
+range(0, 6, 2) = 0,2,4
+range(10, 5, -1) = 10,9,8,7,6
 
 ---
 
